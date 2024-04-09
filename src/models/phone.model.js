@@ -7,6 +7,7 @@ const phoneSchema= new Schema({
         require: true
     },
     size: String,
+    img: String,
     model: String,
     price:Number,
     cost: Number,
